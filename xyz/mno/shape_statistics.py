@@ -1,7 +1,9 @@
-from shape import Shape
+from xyz.mno.shape import Shape
 
 class ShapeStatistics:
 
+    # class function
+    # Classname.functioncall()
     def getStats(shape):
         if isinstance(shape, Shape):
             area = shape.area()
